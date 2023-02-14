@@ -96,4 +96,4 @@ Voici une liste des améliorations envisageable :
 - Optimiser l'éxécution 
 
 ## 6. *Auteur*
-- Théo Pidoux
+- TMEE3 https://github.com/TMee3
