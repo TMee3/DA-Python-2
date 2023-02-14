@@ -50,8 +50,8 @@ Un répertoire nommé "output" sera créé pour conserver les résultats du scri
 Ce dernier s'exécutera automatiquement sans nécessiter de saisir une URL.
 
 ## 3. *Exécuter les scripts*
-Après avoir téléchargé DA-Python-2-main.zip depuis GitHub, il faut l'extraire dans un dossier de votre choix.   
-Ensuite, en utilisant l'invite de commandes Windows (ou le terminal si vous êtes sur Mac ou Linux) :  
+Une fois que vous avez téléchargé le fichier DA-Python-2-main.zip depuis GitHub, vous devez le décompresser dans un dossier de votre préférence. Ensuite, à l'aide de l'invite de commandes de Windows ou du terminal si vous utilisez un Mac ou Linux, vous pouvez procéder comme suit :
+
 - Placez vous dans le dossier  
 - Créez un environnement virtuel  
 - Activez le  
@@ -61,6 +61,7 @@ $ CD ../chemin/vers/DA-Python-2-main
 $ python -m venv env
 $ source env/bin/activate
 $ pip install -r requirements.txt
+
 ```
 Vous pouvez maintenant exécuter le script de votre choix en tapant l'une des commandes suivante.
 ```
@@ -88,17 +89,17 @@ Le dossier "output" se décompose comme suit :
 Ainsi, pour ```$ python scraping_one_category.py``` le dossier "output" va contenir un fichier "onecategory.csv" ainsi un autre sous dossier "categoryimg" contenant les images de la category scrapper.
 
 Pour ```$ python scraping_all_category.py``` le dossier "output" va contenir autant de sous-dossier "Nom-de-la-catégorie" que de catégories sur le site, c'est à dire cinquante et dans ces catégories il y aura une sous categories "img" ou il y aura les images de chaque catégories. Composé ainsi : 
-   Dossier : " Output"
-      Dossier : "Nom-de-la-catégorie"
-         Fichier : "Nom-de-la-catégorie.csv"
-         Dossier : "img"
-            Fichier : "title.jpg"
+   - Dossier : " Output"
+      - Dossier : "Nom-de-la-catégorie"
+         - Fichier : "Nom-de-la-catégorie.csv"
+          - Dossier : "img"
+            - Fichier : "title.jpg"
 
 ## 5. *Futures améliorations*
 Voici une liste des améliorations envisageable :
-- Faire une interface GUI 
+- Faire une interface GUI (Avec PyQt5 / Pyforms etc)
 - Lancer un seul script qui nous donne le choix entre les trois déjà existant
-- Optimiser l'éxécution du script
+- Optimiser l'éxécution du script avec asyncio
 
 ## 6. *Auteur*
 - Theo Pdioux https://github.com/TMee3
