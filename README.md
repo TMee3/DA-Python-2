@@ -50,16 +50,16 @@ Un répertoire nommé "output" sera créé pour conserver les résultats du scri
 Ce dernier s'exécutera automatiquement sans nécessiter de saisir une URL.
 
 ## 3. *Exécuter les scripts*
-Après avoir téléchargé DA-Python-Projet2-main.zip depuis GitHub, il faut l'extraire dans un dossier de votre choix.   
+Après avoir téléchargé DA-Python-2-main.zip depuis GitHub, il faut l'extraire dans un dossier de votre choix.   
 Ensuite, en utilisant l'invite de commandes Windows (ou le terminal si vous êtes sur Mac ou Linux) :  
 - Placez vous dans le dossier  
 - Créez un environnement virtuel  
 - Activez le  
 - Installez les modules depuis requirements.txt
 ```
-$ CD ../chemin/vers/DA-Python-Projet2-main
+$ CD ../chemin/vers/DA-Python-2-main
 $ python -m venv env
-$ env\Scripts\activate
+$ source env/bin/activate
 $ pip install -r requirements.txt
 ```
 Vous pouvez maintenant exécuter le script de votre choix en tapant l'une des commandes suivante.
@@ -87,13 +87,18 @@ Le dossier "output" se décompose comme suit :
 
 Ainsi, pour ```$ python scraping_one_category.py``` le dossier "output" va contenir un fichier "onecategory.csv" ainsi un autre sous dossier "categoryimg" contenant les images de la category scrapper.
 
-Pour ```$ python scraping_all_category.py``` le dossier "output" va contenir autant de sous-dossier "Nom-de-la-catégorie" que de catégories sur le site, c'est à dire cinquante et dans ces catégories il y aura une sous categories "img" ou il y aura 
+Pour ```$ python scraping_all_category.py``` le dossier "output" va contenir autant de sous-dossier "Nom-de-la-catégorie" que de catégories sur le site, c'est à dire cinquante et dans ces catégories il y aura une sous categories "img" ou il y aura les images de chaque catégories. Composé ainsi : 
+   Dossier : " Output"
+      Dossier : "Nom-de-la-catégorie"
+         Fichier : "Nom-de-la-catégorie.csv"
+         Dossier : "img"
+            Fichier : "title.jpg"
 
 ## 5. *Futures améliorations*
 Voici une liste des améliorations envisageable :
 - Faire une interface GUI 
 - Lancer un seul script qui nous donne le choix entre les trois déjà existant
-- Optimiser l'éxécution 
+- Optimiser l'éxécution du script
 
 ## 6. *Auteur*
-- TMEE3 https://github.com/TMee3
+- Theo Pdioux https://github.com/TMee3
