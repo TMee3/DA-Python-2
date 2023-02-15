@@ -100,6 +100,9 @@ Voici une liste des améliorations envisageable :
 - Faire une interface GUI (Avec PyQt5 / Pyforms etc)
 - Lancer un seul script qui nous donne le choix entre les trois déjà existant
 - Optimiser l'éxécution du script avec asyncio
+- Ajoutez un système de date afin de facilité l'utilisation de pandas
+- Changer le title des images par "universal_product_code" afin de rendre plus pertinant dans la base de données.
+- Faire un chron du script afin d'automatiser.
 
 ## 6. *Auteur*
-- Theo Pdioux https://github.com/TMee3
+- Theo Pidoux https://github.com/TMee3
