@@ -1,4 +1,3 @@
-101 lines (85 sloc)  4.54 KB
 
 # Scraping "books.toscrape.com"
 Application python de récupération de données pour le site http://books.toscrape.com.
